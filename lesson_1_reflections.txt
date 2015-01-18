@@ -2,7 +2,7 @@ How did viewing a diff between two versions of a file help you see the bug that
 was introduced?
 - diff shows the changes introduced by commit. In order to check if the bug 
   was introduced, one can checkout from the respective commit and  experiment 
-  with it which can help to find which has couse to the bug.
+  with it which can help to find what has couse to the bug.
 
 How could having easy access to the entire history of a file make you a more 
 efficient programmer in the long term?
