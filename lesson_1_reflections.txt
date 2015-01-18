@@ -1,19 +1,43 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+- diff shows the changes introduced by commit. In order to check if the bug 
+  was introduced, one can checkout from the respective commit and  experiment 
+  with it which can help to find which has couse to the bug.
 
-How did viewing a diff between two versions of a file help you see the bug that was introduced?
+How could having easy access to the entire history of a file make you a more 
+efficient programmer in the long term?
+- The entire history provides the overall scan for the changes done on that
+  branch/repo. This can help any programmer to find out what changes been done
+  by whome. This may also work as a breakpoint for debugging code.
 
-How could having easy access to the entire history of a file make you a more efficient programmer in the long term? 
+What do you think are the pros and cons of manually choosing when to create a 
+commit, like you do in Git, vs having versions automatically saved, 
+like Google docs does?
+ - pros: 1. A programmer can decide when to create the breakpoint.
+         2. Each commit may contain a logical change.
+         3. Debugging is realy easy as commit message is sometime
+         self-explanatory that what change a commit offers.
+         4. History become more precised and meaningful.
+ - cons: 1. We might not remember commiting, even when a logical changes has
+            been added.
+         2. Provide a detail history.
 
-What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
- - 
-
-Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
- - 
+Why do you think some version control systems, like Git, allow saving 
+multiple files in one commit, while others, like Google Docs, treat each 
+file separately?
+ - Version controlling done by tools like Git offer good value to work for
+   programmers where a change may be done on various files and all of them
+   becomes one logical change. But Google doc can be used by any 
+   programmer-nonprogrammer.
 
 How can you use the commands git log and git diff to view the history of files?
- - 
+ - git log provides then overall history of commits done. git diff provides the
+   detail of changes been done between two commits.
 
-How might using version control make you more confident to make changes that could break something?
- - 
+How might using version control make you more confident to make changes that 
+could break something?
+ - We can always checkout to the same commit, delete the branch which doesnt
+   offer working feature.
 
 Now that you have your workspace set up, what do you want to try using Git for?
- - 
+ - I would like use git for all my projects done for work or personal.
