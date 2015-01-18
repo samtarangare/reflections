@@ -1,13 +1,49 @@
-When would you want to use a remote repository rather than keeping all your work local?
-- If there are other people working on the same repository.
-Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
-- Sometime i might want to modify some files locally.
-Describe the differences between forks, clones, and branches. When would you use one instead of another?
-- Forks is a way githut makes the clone of other repository. Clone is to create other copy either from guthub or local and branches are making the similar copy on local machine.
-What is the benefit of having a copy of the last known state of the remote stored locally?
-How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
-When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
-- Seperate branch is require if are working on completely different/new feature. The benefits is that if we think the feature has come out properly we can merge with master and if not we can always get rid of that branch. Branches also helps us to collaborate works with other memebers easily.
+When would you want to use a remote repository rather than keeping all your 
+work local?
+- 1. If there are other people working on the same repository (collaboration with
+  others).
+  2. If one wish to share the project in public.
+  3. Keeping the data safe incase of system crash.
+  4. Not having access to the local directory incase of working on somewhere
+  else system.
+
+Why might you want to always pull changes manually rather than having Git 
+automatically stay up-to-date with your remote repository?
+- 1.Sometime i might want to modify some files locally.
+  2.Working with review based code collaboration will be more easy with pull changes 
+    manually as cbucky did with sarah.
+
+Describe the differences between forks, clones, and branches. When would you use one 
+instead of another?
+- Forks is a way githut makes the clone of other repository. 
+  Clone is to create other copy either from guthub or local.
+  branches are making the similar copy on local system.
+
+What is the benefit of having a copy of the last known state of the remote stored 
+locally?
+- One can always make any experimental changes and test their work independently
+  incase of no access to remote branch.
+
+How would you collaborate without using Git or GitHub? What would be easier, and 
+what would be harder?
+- Easier - 1. Lots of things has to be done manualy like copying code, discuss when and
+  what to merge.
+  2. Formate each commit manually like name, author, time of commit.
+  3. Work independently.
+  4. Pull and pull request notification via emails.
+  5. Online review based system.
+- Harder - 1. Each time merge conflict happens not easy for only one person to
+  debug issue as that conflict might happer because of the changes done by
+  other person.
+  2. In case of no access to internet we might not be updated to lots of work
+  done by others.
+
+When would you want to make changes in a separate branch rather than directly in 
+master? What benefits does each approach have?
+- Seperate branch is require if are working on completely different/new feature. 
+The benefits is that if we think the feature has come out properly we can merge 
+with master and if not we can always get rid of that branch. Branches also helps 
+us to collaborate works with other memebers easily.
 
 
 
